@@ -116,40 +116,40 @@ fetch(`https://cdn.jsdelivr.net/gh/ETERNALKIRITO/AxinityIcons@main/icons.json?v=
 
 ```javascript
   <script>
-    (function() {
-      // Define which project icon this website should use
-      const PROJECT_KEY = 'PUTHERE'; 
-      
-      const CDN_BASE = 'https://cdn.jsdelivr.net/gh/ETERNALKIRITO/AxinityIcons@main/';
-      
-      // Hourly cache-buster to fetch updates within 60 minutes
-      const hourlyBuster = Math.floor(Date.now() / 3600000); 
-      
-      fetch(`${CDN_BASE}icons.json?v=${hourlyBuster}`)
-        .then(response => {
-          if (!response.ok) throw new Error();
-          return response.json();
-        })
-        .then(data => {
-          const project = data[PROJECT_KEY];
-          if (!project) return;
+  (function() {
+    // Corrected project key to match the JSON
+    const PROJECT_KEY = 'axin-dev'; 
+    
+    const CDN_BASE = 'https://cdn.jsdelivr.net/gh/ETERNALKIRITO/AxinityIcons@main/';
+    
+    // Hourly cache-buster to fetch updates within 60 minutes
+    const hourlyBuster = Math.floor(Date.now() / 3600000); 
+    
+    fetch(`${CDN_BASE}icons.json?v=${hourlyBuster}`)
+      .then(response => {
+        if (!response.ok) throw new Error();
+        return response.json();
+      })
+      .then(data => {
+        const project = data[PROJECT_KEY];
+        if (!project) return;
 
-          // Determine the best matched resolutions (prefers standard target sizes, falls back to 'default')
-          const faviconPath = project["32"] || project["48"] || project["ico"] || project["default"];
-          const applePath = project["180"] || project["192"] || project["default"];
+        // Corrected lookup to check for "512-ico" instead of "ico"
+        const faviconPath = project["32"] || project["48"] || project["512-ico"] || project["default"];
+        const applePath = project["180"] || project["192"] || project["default"];
 
-          // Swap out the fallback paths with your exact project icons
-          if (faviconPath) {
-            document.getElementById('dynamic-favicon').href = CDN_BASE + faviconPath;
-          }
-          if (applePath) {
-            document.getElementById('dynamic-apple-icon').href = CDN_BASE + applePath;
-          }
-        })
-        .catch(() => {
-          // If the network or CDN fails, the script fails silently.
-          // Your website simply keeps using the main 'Axinity-Logo.png' fallback safely.
-        });
-    })();
-  </script>
+        // Swap out the fallback paths with your exact project icons
+        if (faviconPath) {
+          document.getElementById('dynamic-favicon').href = CDN_BASE + faviconPath;
+        }
+        if (applePath) {
+          document.getElementById('dynamic-apple-icon').href = CDN_BASE + applePath;
+        }
+      })
+      .catch(() => {
+        // If the network or CDN fails, the script fails silently.
+        // Your website simply keeps using the main 'Axinity-Logo.png' fallback safely.
+      });
+  })();
+</script>
 ```
