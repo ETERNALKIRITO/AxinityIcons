@@ -6,7 +6,7 @@
   },
   "axin-dev": {
     "default": "Icons/Variations/Axinity-Developer-Logos/PNGs/Axin-Dev-Logo.png",
-    "ico": "Icons/Variations/Axinity-Developer-Logos/ICOs/Axin-Dev-Logo_512.ico",
+    "512-ico": "Icons/Variations/Axinity-Developer-Logos/ICOs/Axin-Dev-Logo_512.ico",
     "16": "Icons/Variations/Axinity-Developer-Logos/PNGs/Axin-Dev-Logo_16.png",
     "32": "Icons/Variations/Axinity-Developer-Logos/PNGs/Axin-Dev-Logo_32.png",
     "34": "Icons/Variations/Axinity-Developer-Logos/PNGs/Axin-Dev-Logo_34.png",
