@@ -79,15 +79,15 @@ You can populate it with the `512px` developer logo using this script:
 </script>
 ```
 
-### Example C: Fetching Alternative Styles (e.g., Skettle OS Rounded 2)
-If you need to fetch a specific style variation like the second rounded style of the Skettle OS logo:
+### Example C: Fetching Alternative Styles (e.g., Skettle AOS Rounded 2)
+If you need to fetch a specific style variation like the second rounded style of the Skettle AOS logo:
 
 ```html
 <script>
   fetch('https://cdn.jsdelivr.net/gh/ETERNALKIRITO/AxinityIcons@main/icons.json')
     .then(response => response.json())
     .then(data => {
-      const relativePath = data["skettle-os"]["rounded2"];
+      const relativePath = data["skettle-aos"]["rounded2"];
       const fullUrl = 'https://cdn.jsdelivr.net/gh/ETERNALKIRITO/AxinityIcons@main/' + relativePath;
 
       // Update your HTML or JS image element
@@ -112,13 +112,13 @@ fetch(`https://cdn.jsdelivr.net/gh/ETERNALKIRITO/AxinityIcons@main/icons.json?v=
     // ... use data
   });
 ```
-## 5. Full Baked Head Script Example
+## 5. Full Baked Head Script Example:
 
 ```javascript
   <script>
     (function() {
       // Define which project icon this website should use
-      const PROJECT_KEY = 'skettle-os'; 
+      const PROJECT_KEY = 'PUTHERE'; 
       
       const CDN_BASE = 'https://cdn.jsdelivr.net/gh/ETERNALKIRITO/AxinityIcons@main/';
       

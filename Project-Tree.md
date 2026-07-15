@@ -2,11 +2,11 @@
 ```
 AxinityIcons
 ├─ Icons
-│  ├─ Axin-AxinEcho-Logo.png
+│  ├─ AxinEchoAOS-Logo.png
 │  ├─ Axinity-Logo.png
 │  ├─ Blank.png
-│  ├─ SkettleOS-Logo.png
-│  ├─ Smallest-Egg-OS-Logo.png
+│  ├─ SkettleAOS-Logo.png
+│  ├─ SmallestEggAOS-Logo.png
 │  └─ Variations
 │     ├─ Axinity-Developer-Logos
 │     │  ├─ ICOs
@@ -24,20 +24,21 @@ AxinityIcons
 │     │     ├─ Axin-Dev-Logo_48.png
 │     │     ├─ Axin-Dev-Logo_512.png
 │     │     └─ Axin-Dev-Logo_64.png
-│     ├─ Axinity-HyperNovaOS-Logos
+│     ├─ Axinity-HyperNovaAOS-Logos
 │     │  └─ PNGs
 │     │     └─ Axin-AxinHyperNova-Logo_Rounded1.png
 │     ├─ Axinity-Logos
 │     │  └─ Compressed-Versions
 │     │     ├─ Axinity-Logo_Compress-Less-Than-1MB.png.png
 │     │     └─ Axinity-Logo_Compress-Less-Than-2MB.png
-│     └─ Axinity-SkettleOS-Logos
+│     └─ Axinity-SkettleAOS-Logos
 │        └─ PNGs
-│           ├─ SkettleOS-Logo_Rounded1.png
-│           └─ SkettleOS-Logo_Rounded2.png
+│           ├─ SkettleAOS-Logo_Rounded1.png
+│           └─ SkettleAOS-Logo_Rounded2.png
 ├─ icons.json
 ├─ LICENSE
 ├─ Project-Tree.md
-└─ README.md
+├─ README.md
+└─ Usage.md
 
 ```

@@ -19,19 +19,19 @@
     "512": "Icons/Variations/Axinity-Developer-Logos/PNGs/Axin-Dev-Logo_512.png",
     "1024": "Icons/Variations/Axinity-Developer-Logos/PNGs/Axin-Dev-Logo_1024.png"
   },
-  "skettle-os": {
-    "default": "Icons/SkettleOS-Logo.png",
-    "rounded1": "Icons/Variations/Axinity-SkettleOS-Logos/PNGs/SkettleOS-Logo_Rounded1.png",
-    "rounded2": "Icons/Variations/Axinity-SkettleOS-Logos/PNGs/SkettleOS-Logo_Rounded2.png"
+  "skettle-aos": {
+    "default": "Icons/SkettleAOS-Logo.png",
+    "rounded1": "Icons/Variations/Axinity-SkettleAOS-Logos/PNGs/SkettleAOS-Logo_Rounded1.png",
+    "rounded2": "Icons/Variations/Axinity-SkettleAOS-Logos/PNGs/SkettleAOS-Logo_Rounded2.png"
   },
-  "hypernova-os": {
+  "hypernova-aos": {
     "default": "Icons/Variations/Axinity-HyperNovaOS-Logos/PNGs/Axin-AxinHyperNova-Logo_Rounded1.png"
   },
-  "axin-echo": {
-    "default": "Icons/Axin-AxinEcho-Logo.png"
+  "axin-echo-aos": {
+    "default": "Icons/AxinEchoAOS-Logo.png"
   },
-  "smallest-egg-os": {
-    "default": "Icons/Smallest-Egg-OS-Logo.png"
+  "smallest-egg-aos": {
+    "default": "Icons/SmallestEggAOS-Logo.png"
   },
   "blank": {
     "default": "Icons/Blank.png"
