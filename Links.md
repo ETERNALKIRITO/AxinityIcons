@@ -63,6 +63,8 @@ Use the **GitHub Raw Links** only if you are testing or desperately need an imag
   * CDN: [https://cdn.jsdelivr.net/gh/ETERNALKIRITO/AxinityIcons@main/Icons/Variations/Axinity-Developer-Logos/PNGs/Axin-Dev-Logo_48.png](https://cdn.jsdelivr.net/gh/ETERNALKIRITO/AxinityIcons@main/Icons/Variations/Axinity-Developer-Logos/PNGs/Axin-Dev-Logo_48.png)
 * **64px**
   * CDN: [https://cdn.jsdelivr.net/gh/ETERNALKIRITO/AxinityIcons@main/Icons/Variations/Axinity-Developer-Logos/PNGs/Axin-Dev-Logo_64.png](https://cdn.jsdelivr.net/gh/ETERNALKIRITO/AxinityIcons@main/Icons/Variations/Axinity-Developer-Logos/PNGs/Axin-Dev-Logo_64.png)
+* **96px**
+  * CDN: [https://cdn.jsdelivr.net/gh/ETERNALKIRITO/AxinityIcons@main/Icons/Variations/Axinity-Developer-Logos/PNGs/Axin-Dev-Logo_96.png](https://cdn.jsdelivr.net/gh/ETERNALKIRITO/AxinityIcons@main/Icons/Variations/Axinity-Developer-Logos/PNGs/Axin-Dev-Logo_96.png)
 * **128px**
   * CDN: [https://cdn.jsdelivr.net/gh/ETERNALKIRITO/AxinityIcons@main/Icons/Variations/Axinity-Developer-Logos/PNGs/Axin-Dev-Logo_128.png](https://cdn.jsdelivr.net/gh/ETERNALKIRITO/AxinityIcons@main/Icons/Variations/Axinity-Developer-Logos/PNGs/Axin-Dev-Logo_128.png)
 * **180px** (Apple Touch Icon)
